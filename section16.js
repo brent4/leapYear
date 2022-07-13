@@ -118,67 +118,67 @@ console.log("JavaScript is Working!");
 
 
 
-let year = 2000;
-if ((year % 4 === 0) && (year % 100 !== 0)) {
-    console.log(year + ' is a leap year.')
-} else if ((year % 100 === 0) && (year % 400 === 0) && (year % 4 === 0)) {
-    console.log(year + ' is a leap year.')
-} else { console.log(year + ' is NOT a leap year') };
+// let year = 2000;
+// if ((year % 4 === 0) && (year % 100 !== 0)) {
+//     console.log(year + ' is a leap year.')
+// } else if ((year % 100 === 0) && (year % 400 === 0) && (year % 4 === 0)) {
+//     console.log(year + ' is a leap year.')
+// } else { console.log(year + ' is NOT a leap year') };
 
-This was fun!
+// This was fun!
 
-    // Take three parameters age, sex(M or F), marital status(Y or N) and then using following
-    // rules print their place of service.
-    // if employee is female, then she will work only in urban areas.
+// Take three parameters age, sex(M or F), marital status(Y or N) and then using following
+// rules print their place of service.
+// if employee is female, then she will work only in urban areas.
 
-    // if employee is a male and age is in between 20 to 40 then he may work in anywhere
+// if employee is a male and age is in between 20 to 40 then he may work in anywhere
 
-    // if employee is male and age is in between 40 t0 60 then he will work in urban areas only.
+// if employee is male and age is in between 40 t0 60 then he will work in urban areas only.
 
-    // And any other input of age should print "ERROR".
+// And any other input of age should print "ERROR".
 
-    // let age = 25;
-    // let isMale = false;
-    // // This program assumes that everyone is either male or female and that 
-    // //if they are not male they are female.  I have a neice who thinks she's a boy.
-    // let isMarried = true;
-    // //maritial status is not checked for in these instructions.
-    // //place of service is defined as 'anywhere' or 'urban only.
-    // //age below 20 or above 60 should console.log 'ERROR'.
+// let age = 25;
+// let isMale = false;
+// // This program assumes that everyone is either male or female and that 
+// //if they are not male they are female.  I have a neice who thinks she's a boy.
+// let isMarried = true;
+// //maritial status is not checked for in these instructions.
+// //place of service is defined as 'anywhere' or 'urban only.
+// //age below 20 or above 60 should console.log 'ERROR'.
 
-    // if (age < 20 || age > 60) {
-    //     console.log('ERROR')
-    // } else if ((isMale === false) || ((isMale === true) && (age >= 40))) {
-    //     console.log('Place of service -- Urban only')
-    // } else if ((isMale === true) && (age <= 40)) {
-    //     console.log('Place of service -- Anywhere')
-    // }
+// if (age < 20 || age > 60) {
+//     console.log('ERROR')
+// } else if ((isMale === false) || ((isMale === true) && (age >= 40))) {
+//     console.log('Place of service -- Urban only')
+// } else if ((isMale === true) && (age <= 40)) {
+//     console.log('Place of service -- Anywhere')
+// }
 
-    // console.log('Age is ' + age);
+// console.log('Age is ' + age);
 
-    // // console.log('Is this a Pakistani dating game?')
+// // console.log('Is this a Pakistani dating game?')
 
 
-    // for (i = 0; i <= people.length - 1; i++) {
-    //     console.log(`${i + 1}`, " | ",
-    //         people[i].toUpperCase());
-    // }
+// for (i = 0; i <= people.length - 1; i++) {
+//     console.log(`${i + 1}`, " | ",
+//         people[i].toUpperCase());
+// }
 
-    // for (let phrase = 1; phrase <= 6; phrase++) {
-    //     console.log('"Da ba dee da ba daa"');
-    // }
+// for (let phrase = 1; phrase <= 6; phrase++) {
+//     console.log('"Da ba dee da ba daa"');
+// }
 
-    // bhv you can nest one loop inside another loop by inserting the 
-    // second for loop before the final closing }
+// bhv you can nest one loop inside another loop by inserting the 
+// second for loop before the final closing }
 
-    // for (let i = 1; i <= 10; i++) {
-    //     console.log("Your outer for loop for index" + (i))
-    //     for (let j = 1; j <= 3; j++) {
-    //         console.log("   Your inner loop")
-    //     }
-    // }
+// for (let i = 1; i <= 10; i++) {
+//     console.log("Your outer for loop for index" + (i))
+//     for (let j = 1; j <= 3; j++) {
+//         console.log("   Your inner loop")
+//     }
+// }
 
-    const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]; //DON'T CHANGE THIS LINE PLEASE!
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]; //DON'T CHANGE THIS LINE PLEASE!
 
 // WRITE YOUR LOOP BELOW THIS LINE:
 
