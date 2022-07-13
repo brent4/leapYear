@@ -7,3 +7,5 @@ if ((year % 4 === 0) && (year % 100 !== 0)) {
 
 //bhv This is a practical but simple program to see if a 
 //year is a leap year.
+
+//I enjoyed writing this simple program.
